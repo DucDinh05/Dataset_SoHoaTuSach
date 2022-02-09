@@ -1,4 +1,4 @@
-# Dataset_SoHoaTuSach 
+# Dataset_SoHoaTuSach [Link đầy đủ](https://drive.google.com/drive/folders/1BjQ70HNr0NsBCEIM0Ypq2qewiSL7B0B5?usp=sharing) 
 ### **1. Thu thập dữ liệu:**
   * 234 ảnh bìa sách được chụp dưới nền đen.
   * 7269 ảnh bìa sách được crawl từ nhiều nguồn khác nhau như:
@@ -51,4 +51,4 @@
  * Data YOLO: https://drive.google.com/drive/folders/1aHMmGXyXRp35Snn0jwMDmhnt6c5Z7Fl_?usp=sharing
  * Data OCR: https://drive.google.com/drive/folders/1k-fcbl1xsN5XaAv0BE6mitnINXoF-h7J?usp=sharing
  * Data đánh giá model (234 tấm): https://drive.google.com/drive/folders/1wNWmA_LfoPS_364SvuBX9kUdwnB4FdQH?usp=sharing
- ## [Link đầy đủ](https://drive.google.com/drive/folders/1BjQ70HNr0NsBCEIM0Ypq2qewiSL7B0B5?usp=sharing) 
+ 
