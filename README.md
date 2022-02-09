@@ -1,5 +1,5 @@
 # Dataset_SoHoaTuSach 
-### **3.1 Thu thập dữ liệu:**
+### **1 Thu thập dữ liệu:**
   * 234 ảnh bìa sách được chụp dưới nền đen.
   * 7269 ảnh bìa sách được crawl từ nhiều nguồn khác nhau như:
     * [Nhà xuất bản Trẻ](https://www.nxbtre.com.vn/)
@@ -9,11 +9,11 @@
   * 22954 dòng text được cắt ra từ chính những sách đã thu thập được.
   * 100000 dòng text được lấy từ github VietOCR (Do có quá nhiều ảnh nên nhóm chỉ up lên 25000/100000 tấm demo, nhóm sẽ up file nén rar nếu thầy muốn xem toàn bộ 100k tấm)
 
-### **3.2 Dán nhãn dữ liệu**
+### **2 Dán nhãn dữ liệu**
   * 7269 ảnh bìa sách phục vụ train model YOLO ([link dán nhãn](http://makesense.ai/))
   * Hơn 20000 dòng text để phục vụ train model [VietOCR](https://github.com/pbcquoc/vietocr) ([link dán nhãn](https://www.robots.ox.ac.uk/~vgg/software/via/via.html))
 
-### **3.3 Thao tác xử lý dữ liệu:**
+### **3 Thao tác xử lý dữ liệu:**
   * Đầu tiên với ảnh thô chụp từ camera dưới nền đen ta contour ảnh từ một số bước xử lý dữ liệu:
     * Resize ảnh.
     * Convert ảnh thành Gray Scale.
@@ -41,7 +41,7 @@
   * Lưu kết quả:
     * Thêm vào dataframe và lưu dưới dạng file csv.
 
-### **3.4 Phân chia (split)**
+### **4 Phân chia (split)**
  * Với model YOLOv5 
     * Training data: 6269 labels
     * Validation data: 1000 labels
