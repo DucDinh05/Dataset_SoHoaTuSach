@@ -1,5 +1,5 @@
 # Dataset_SoHoaTuSach 
-### **1 Thu thập dữ liệu:**
+### **1. Thu thập dữ liệu:**
   * 234 ảnh bìa sách được chụp dưới nền đen.
   * 7269 ảnh bìa sách được crawl từ nhiều nguồn khác nhau như:
     * [Nhà xuất bản Trẻ](https://www.nxbtre.com.vn/)
@@ -9,11 +9,11 @@
   * 22954 dòng text được cắt ra từ chính những sách đã thu thập được.
   * 100000 dòng text được lấy từ github VietOCR (Do có quá nhiều ảnh nên nhóm chỉ up lên 25000/100000 tấm demo, nhóm sẽ up file nén rar nếu thầy muốn xem toàn bộ 100k tấm)
 
-### **2 Dán nhãn dữ liệu**
+### **2. Dán nhãn dữ liệu**
   * 7269 ảnh bìa sách phục vụ train model YOLO ([link dán nhãn](http://makesense.ai/))
   * Hơn 20000 dòng text để phục vụ train model [VietOCR](https://github.com/pbcquoc/vietocr) ([link dán nhãn](https://www.robots.ox.ac.uk/~vgg/software/via/via.html))
 
-### **3 Thao tác xử lý dữ liệu:**
+### **3. Thao tác xử lý dữ liệu:**
   * Đầu tiên với ảnh thô chụp từ camera dưới nền đen ta contour ảnh từ một số bước xử lý dữ liệu:
     * Resize ảnh.
     * Convert ảnh thành Gray Scale.
@@ -41,14 +41,14 @@
   * Lưu kết quả:
     * Thêm vào dataframe và lưu dưới dạng file csv.
 
-### **4 Phân chia (split)**
+### **4.Phân chia (split)**
  * Với model YOLOv5 
     * Training data: 6269 labels
     * Validation data: 1000 labels
  * Với model VietOCR thì nhóm để chia train/val theo tỉ lệ 80/20.
  * Đối với việc đánh giá thì nhóm dành những ảnh chụp thực tế chưa dán nhãn cả phần VietOCR và YOLO gồm 234 tấm ảnh
- ## **4.Data:**
+ ## **5.Data:**
  * Data YOLO: https://drive.google.com/drive/folders/1aHMmGXyXRp35Snn0jwMDmhnt6c5Z7Fl_?usp=sharing
  * Data OCR: https://drive.google.com/drive/folders/1k-fcbl1xsN5XaAv0BE6mitnINXoF-h7J?usp=sharing
  * Data đánh giá model (234 tấm): https://drive.google.com/drive/folders/1wNWmA_LfoPS_364SvuBX9kUdwnB4FdQH?usp=sharing
- ## Link [Drive đầy đủ](https://drive.google.com/drive/folders/1BjQ70HNr0NsBCEIM0Ypq2qewiSL7B0B5?usp=sharing) 
+ Link [Drive đầy đủ](https://drive.google.com/drive/folders/1BjQ70HNr0NsBCEIM0Ypq2qewiSL7B0B5?usp=sharing) 
